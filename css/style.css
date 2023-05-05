@@ -12,7 +12,7 @@ body{
     font-family: 'Fredoka', sans-serif;
 }
 
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -25,21 +25,33 @@ h1{
     margin-top: 20px;
 }
 
-p{
+.paragraph{
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
 }
 
-.bg-color-box{
-    background-color: #0F0E17;
+img{
+    width: 100px;
+}
+
+.floats{
+    float: left;
 }
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.single-box{
+    color: white;
+    background-color: #0F0E17;
+
+}
+
+
 
 
 
@@ -49,6 +61,7 @@ p{
 
 
 /* MAIN */
+
 
 
 
