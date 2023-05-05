@@ -48,13 +48,9 @@ img{
 .single-box{
     color: white;
     background-color: #0F0E17;    
-    width: calc(100% / 3);  
-}
-
- div.single-box p{
-    padding: 10px 0px 0px 20px;
-
-
+    width: calc(100% / 3 - 20px);
+    margin-left: 10px;
+    margin-right: 10px;  
 }
 
 .colums{
@@ -62,6 +58,7 @@ img{
 }
 
 .center-box{
+    
    
 }
 
