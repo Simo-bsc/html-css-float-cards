@@ -8,6 +8,55 @@
 
 /* GENERAL */
 
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+    color: #E53170;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.bg-color-box{
+    background-color: #0F0E17;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/* LAYOUT */
+
+
+
+
 /* MAIN */
 
+
+
+
+
+/* DEBUG */
+
+.debug{
+    border: 1px solid red;
+}
 
