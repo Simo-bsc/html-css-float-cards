@@ -48,7 +48,22 @@ img{
 .single-box{
     color: white;
     background-color: #0F0E17;
+    width: 350px; 
+    width: calc(100% / 3);  
+}
 
+ div.single-box p{
+    padding: 10px 0px 0px 20px;
+
+
+}
+
+.colums{
+    width: auto;
+}
+
+.center-box{
+    padding: 0px 20px 0px 20px;
 }
 
 
