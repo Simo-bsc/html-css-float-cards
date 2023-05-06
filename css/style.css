@@ -36,6 +36,24 @@ img{
     width: 100px;
 }
 
+/* LAYOUT */
+
+.center-box{
+    margin-left: 20px;
+    margin-right: 20px;  
+}
+
+.colums{
+    width: auto;
+}
+
+.single-box{
+    color: white;
+    background-color: #0F0E17;    
+    width: calc(100% / 3 - 40px);
+    margin-bottom: 20px;
+}
+      
 .floats{
     float: left;
 }
@@ -45,42 +63,16 @@ img{
     margin: 0 auto;
 }
 
-.single-box{
-    color: white;
-    background-color: #0F0E17;    
-    width: calc(100% / 3 - 20px);
-    margin-left: 10px;
-    margin-right: 10px;  
-}
 
-.colums{
-    width: auto;
-}
+/* MAIN */
 
-.center-box{
-    
-   
+div.single-box p {
+    margin-bottom: 13px;
 }
 
 div.colums{
     background-color: white;
 }
-
-
-
-
-
-/* LAYOUT */
-
-
-
-
-/* MAIN */
-
-
-
-
-
 
 /* DEBUG */
 
